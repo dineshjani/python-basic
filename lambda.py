@@ -1,0 +1,5 @@
+l=list(range(int(input())))
+l=list(map(lambda x:x*x*x,l))
+print(l)
+l=list(filter(lambda x: x>10 and x<=216,l))
+print(l)
