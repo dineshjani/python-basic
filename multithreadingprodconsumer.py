@@ -25,3 +25,6 @@ consumer_thread.start()
 producer_thread.start()
 
 
+#asyncio.run crates a event loop and push a coroutine to that loop.
+asyncio.run(coroutine)
+now event loop work as a javascript
