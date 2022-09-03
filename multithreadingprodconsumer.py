@@ -26,5 +26,8 @@ producer_thread.start()
 
 
 #asyncio.run crates a event loop and push a coroutine to that loop.
-asyncio.run(coroutine)
-now event loop work as a javascript
+# asyncio.run(coroutine)    only i user level thread
+# now event loop work as a javascript
+# multithreading handle by os but asyncio handle by us
+#loop.createtask() register a coroutine on loop
+https://medium.com/dev-bits/a-minimalistic-guide-for-understanding-asyncio-in-python-52c436c244ea
